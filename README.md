@@ -1,6 +1,6 @@
 In dieser Aufgabe beschäftigst du dich damit, fremden Code zu lesen und zu verstehen, um dann Fehler zu identifizieren und lösen zu können. Dafür siehst du dir eine Aufgabe mit Vererbung und Polymorphie genauer an. Im konkreten Fall debuggst du eine Methode, die ein Array aus Instanzen einer Superklasse übergeben bekommt und aus diesem alle Instanzen einer Subklasse mit bestimmten Eigenschaften herausfiltert.
 
-Tipp: Denke daran, dass Arrays in Java eine feste Länge haben. Der Ergebnisarray darf keine leeren Zellen aufweisen.
+Tipp: Denke daran, dass Arrays in Java eine feste Länge haben. Das Ergebnisarray darf keine leeren Zellen aufweisen.
 
 ## Relevante Kursinhalte
 
