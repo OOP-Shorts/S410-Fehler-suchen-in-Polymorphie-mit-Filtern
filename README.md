@@ -1,5 +1,5 @@
-In dieser Aufgabe beschäftigst du dich mit Vererbung und Polymorphie. Es wird ein Array aus Instanzen einer Superklasse Animal übergeben und aus diesem sollen alle Cat-Instanzen, die die Eigenschaft hasLongFur nicht erfüllen herausgefiltert werden.
-In der removeDogsAndLongFurCatsFromList()-Methode der Main-Klasse befinden sich einige Fehler, die du beheben sollst. Die Methode soll am Ende das gefiltere Katzen-Array zurückgeben.
+In dieser Aufgabe beschäftigst du dich mit Vererbung und Polymorphie. Es wird ein Array aus Instanzen einer Superklasse Animal übergeben und aus diesem sollen alle Cat-Instanzen mit kurzem Fell herausgefiltert werden.
+In der removeDogsAndLongFurCatsFromList()-Methode der Main-Klasse befinden sich einige Fehler, die du beheben sollst. Die Methode soll am Ende das ein Array mit allen kurzhaar Katzen zurückgeben.
 
 Tipp: Denke daran, dass Arrays in Java eine feste Länge haben. Der Ergebnisarray darf keine leeren Zellen aufweisen.
 
