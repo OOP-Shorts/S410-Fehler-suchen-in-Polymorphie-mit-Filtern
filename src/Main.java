@@ -19,17 +19,11 @@ public class Main {
 
     private static Cat[] removeDogsAndLongFurCatsFromList(Animal[] animals) {
         int numShortFurCats = 0;
+        Cat[] shortFurCats = new Cat[];
         for (Animal animal : animals) {
-            if (animal instanceof Cat && (!((Cat) animal).isHasLongFur())) {
+            if (!animal.isHasLongFur()) {
+                shortFurCats[numShortFurCats] = animal;
                 numShortFurCats++;
-            }
-        }
-        Cat[] shortFurCats = new Cat[numShortFurCats];
-        int shortFurCounter = 0;
-        for (Animal animal : animals) {
-            if (animal instanceof Cat && (!((Cat) animal).isHasLongFur())) {
-                shortFurCats[shortFurCounter] = (Cat) animal;
-                shortFurCounter++;
             }
         }
         return shortFurCats;
